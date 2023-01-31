@@ -1,4 +1,4 @@
-baseurl = "https://<username>.github.io"
+baseurl = "https://SamirGoes.github.io"
 title = "Samir Góes"
 theme = "hugo-coder"
 languagecode = "en"
