@@ -1,5 +1,5 @@
 baseurl = "https://samirgoes.github.io"
-title = "Samir Goes"
+title = "Samir Góes"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -13,7 +13,7 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-  author = "Samir Goes"
+  author = "Samir Góes"
   info = "Developer"
   description = "Samir Goes`s personal website"
   keywords = "blog,developer,personal"
