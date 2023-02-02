@@ -4,12 +4,16 @@ date: 2023-01-31T19:15:51-03:00
 draft: false
 ---
 
-# Software develop over 10 years of experience
+# Sobre mim
 
-I'm Samir and I`m 30 years old, married and father os three cats.
-Living in São Paulo, formed in **Information Sistem** and a not completed graduate degree in software web development course.
-I'm a software developer over 10 years of experience.
-Start my carrer in ASP classic and sql in 2010, work in a erp system and a invoice system.
-I already worked in projects with a banks, insurance companies, erp for hospitals, ecommerce, human resources and more.
+Meu nome é Samir Góes, tenho 30 anos, casado e moro em São Paulo em uma casa onde temos mais gatos do que pessoas.
+Sou formado em **Sistemas de Informação** com pós graduação ~~não concluída~~ em **Desenvolvimento de Software para Web**.
 
-## Arduino enthusiast
+## Carreira
+
+Tenho mais de **10** anos de experiência como desenvolvedor de software, dos quais já atuei nos segmentos bancário, seguros, saúde, recursos humanos, ecommerce e fintech.
+
+## Entusiasta de arduíno
+
+Atualmente tenho dedicado um bom tempo a mexer com plataformas como **Arduíno** e **NodeMcu** apenas como hobby.
+A parte de eletrônica me desperta uma certa curiosidade.
