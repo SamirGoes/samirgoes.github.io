@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2023-04-17T13:58:05-03:00
-draft: true
+draft: false
 ---
 
 <form action="https://submit-form.com/evEPsBoh">

@@ -1,7 +1,7 @@
 ---
 title: "Skills"
 date: 2023-02-02T14:48:51-03:00
-draft: true
+draft: false
 ---
 
 Desenvolvedor com mais de **10** anos de experiência, já tendo atuado nos setores bancário, seguradoras, hospitalar, ecommerce, condominial e fintech.

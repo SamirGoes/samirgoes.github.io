@@ -7,6 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://SamirGoes.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact</title>
+      <link>https://SamirGoes.github.io/contact/</link>
+      <pubDate>Mon, 17 Apr 2023 13:58:05 -0300</pubDate>
+      
+      <guid>https://SamirGoes.github.io/contact/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://SamirGoes.github.io/skills/</link>
+      <pubDate>Thu, 02 Feb 2023 14:48:51 -0300</pubDate>
+      
+      <guid>https://SamirGoes.github.io/skills/</guid>
+      <description>Desenvolvedor com mais de 10 anos de experiência, já tendo atuado nos setores bancário, seguradoras, hospitalar, ecommerce, condominial e fintech.
+Habilidades .Net :star: :star: :star: :star: :star: .Net 6 :star: :star: :star: :star: :star: .Net Framework :star: :star: :star: :star: :star: Spring :star: Java :star: Python 3 :star:
+JavaScript :star: :star: :star:
+jQuery :star: :star: :star: :star: Sql Server :star: :star: :star: :star:
+MongoDb :star: :star: :star:
+Oracle :star: :star:</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://SamirGoes.github.io/about/</link>
       <pubDate>Tue, 31 Jan 2023 19:15:51 -0300</pubDate>
