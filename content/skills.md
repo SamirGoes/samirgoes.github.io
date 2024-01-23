@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-date: 2023-02-02T14:48:51-03:00
+date: 2024-01-23T18:30:51-03:00
 draft: false
 ---
 
@@ -8,23 +8,33 @@ Desenvolvedor com mais de **10** anos de experiência, já tendo atuado nos seto
 
 ## Habilidades
 
-+ .Net :star: :star: :star: :star: :star:
-- .Net 6 :star: :star: :star: :star: :star:
-- .Net Framework :star: :star: :star: :star: :star:
+### Linguagens
 
-+ Spring :star:
-- Java :star:
++ .Net
+    * Core ⭐ ⭐ ⭐ ⭐ ⭐
+    * 6 + ⭐ ⭐ ⭐ ⭐ ⭐
+    * Framework ⭐ ⭐ ⭐ ⭐ ⭐
 
-+ Python 3 :star:
+- Java
+    * Spring boot ⭐
 
-+ JavaScript :star: :star: :star:
-- jQuery :star: :star: :star: :star:
+- Python
+    * Fast Api ⭐
 
-+ Sql Server :star: :star: :star: :star: 
-+ MongoDb :star: :star: :star: 
-+ Oracle :star: :star: 
+- JavaScript ⭐ ⭐ ⭐ ⭐
 
-+ Docker :star: :star: :star: 
+### Frontend
+- HTML ⭐ ⭐ ⭐ ⭐
+- jQuery ⭐ ⭐ ⭐ ⭐
+- Angular ⭐
 
-+ RabbitMQ :star: :star: :star: :star: 
-+ Kafka :star: :star: 
+### Databases
++ Sql Server ⭐ ⭐ ⭐ ⭐ 
++ MongoDb ⭐ ⭐ ⭐ ⭐
++ Oracle ⭐ ⭐
+
++ Docker ⭐ ⭐ ⭐ 
+
+### Mensageria
++ RabbitMQ ⭐ ⭐ ⭐ ⭐ 
++ Kafka ⭐ ⭐ 
