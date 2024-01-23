@@ -37,6 +37,7 @@ disqusShortname = "yourdiscussshortname"
   series = "series"
   tag = "tags"
   author = "authors"
+  algoritmos = "algoritmos"
 
 # Social links
 [[params.social]]

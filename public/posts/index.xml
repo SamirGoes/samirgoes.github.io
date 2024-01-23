@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Samir Góes</title>
+    <link>https://SamirGoes.github.io/posts/</link>
+    <description>Recent content in Posts on Samir Góes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jan 2024 19:39:44 -0300</lastBuildDate><atom:link href="https://SamirGoes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entendendo Algoritmos</title>
+      <link>https://SamirGoes.github.io/posts/entendendo-algoritmos/</link>
+      <pubDate>Tue, 23 Jan 2024 19:39:44 -0300</pubDate>
+      
+      <guid>https://SamirGoes.github.io/posts/entendendo-algoritmos/</guid>
+      <description>Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.
+A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.
+Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.</description>
+    </item>
+    
+  </channel>
+</rss>

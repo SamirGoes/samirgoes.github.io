@@ -5,7 +5,19 @@
     <link>https://SamirGoes.github.io/</link>
     <description>Recent content on Samir Góes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://SamirGoes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jan 2024 19:39:44 -0300</lastBuildDate><atom:link href="https://SamirGoes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entendendo Algoritmos</title>
+      <link>https://SamirGoes.github.io/posts/entendendo-algoritmos/</link>
+      <pubDate>Tue, 23 Jan 2024 19:39:44 -0300</pubDate>
+      
+      <guid>https://SamirGoes.github.io/posts/entendendo-algoritmos/</guid>
+      <description>Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.
+A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.
+Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.</description>
+    </item>
+    
     <item>
       <title>Skills</title>
       <link>https://SamirGoes.github.io/skills/</link>
@@ -13,10 +25,10 @@
       
       <guid>https://SamirGoes.github.io/skills/</guid>
       <description>Desenvolvedor com mais de 10 anos de experiência, já tendo atuado nos setores bancário, seguradoras, hospitalar, ecommerce, condominial e fintech.
-Habilidades Linguagens .Net Core ⭐ ⭐ ⭐ ⭐ ⭐ 6 + ⭐ ⭐ ⭐ ⭐ ⭐ Framework ⭐ ⭐ ⭐ ⭐ ⭐ Java
+Habilidades Link to heading Linguagens Link to heading .Net Core ⭐ ⭐ ⭐ ⭐ ⭐ 6 + ⭐ ⭐ ⭐ ⭐ ⭐ Framework ⭐ ⭐ ⭐ ⭐ ⭐ Java
 Spring boot ⭐ Python
 Fast Api ⭐ JavaScript ⭐ ⭐ ⭐ ⭐
-Frontend HTML ⭐ ⭐ ⭐ ⭐ jQuery ⭐ ⭐ ⭐ ⭐ Angular ⭐ Databases Sql Server ⭐ ⭐ ⭐ ⭐</description>
+Frontend Link to heading HTML ⭐ ⭐ ⭐ ⭐ jQuery ⭐ ⭐ ⭐ ⭐ Angular ⭐ Databases Link to heading Sql Server ⭐ ⭐ ⭐ ⭐</description>
     </item>
     
     <item>
@@ -35,8 +47,7 @@ Frontend HTML ⭐ ⭐ ⭐ ⭐ jQuery ⭐ ⭐ ⭐ ⭐ Angular ⭐ Databases Sql S
       
       <guid>https://SamirGoes.github.io/about/</guid>
       <description>Meu nome é Samir Góes, tenho 31 anos, casado e moro em São José dos Campos em uma casa onde temos mais gatos do que pessoas. Sou formado em Sistemas de Informação com pós graduação não concluída em Desenvolvimento de Software para Web.
-Carreira Tenho mais de 10 anos de experiência como desenvolvedor de software, dos quais já atuei nos segmentos bancário, seguros, saúde, recursos humanos, ecommerce e fintech.
-Hobbies Além de pugilista amador e ciclista peba também me aventuro na marcenaria em casa, criando móveis que nem sempre saem no esquadro.</description>
+Carreira Link to heading Tenho mais de 10 anos de experiência como desenvolvedor de software, dos quais já atuei nos segmentos bancário, seguros, saúde, recursos humanos, ecommerce e fintech.</description>
     </item>
     
   </channel>
