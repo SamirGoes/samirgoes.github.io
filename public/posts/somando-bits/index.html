@@ -2,7 +2,7 @@
 <html lang="en">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>
-  Entendendo Algoritmos · Samir Góes
+  Somando bits · Samir Góes
 </title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,35 +12,34 @@
 
 
 <meta name="author" content="Samir Góes">
-<meta name="description" content="Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.
-A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.
-Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.">
+<meta name="description" content="Somando bits Link to heading Há alguns meses atrás, eu vi esse vídeo aqui:
+Assisti superficialmente de início, mas é um BAITA conteúdo. Mas ai imaginei E SE: eu assistir devagar pra entender os conceitos e TALVEZ reproduzí-los.
+Foi aí que começou minha saga anotando tudo num caderninho. Em especial a parte de simulação das portas lógicas, e novamente veio um E SE, eu recriar tudo isso eletronicamente? E SE eu criar o mesmo somador utilizando componentes eletrônicos dos quais eu tenho familiariedade quase nula?">
 <meta name="keywords" content="blog,developer,personal">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Entendendo Algoritmos">
-  <meta name="twitter:description" content="Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.
-A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.
-Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.">
+  <meta name="twitter:title" content="Somando bits">
+  <meta name="twitter:description" content="Somando bits Link to heading Há alguns meses atrás, eu vi esse vídeo aqui:
+Assisti superficialmente de início, mas é um BAITA conteúdo. Mas ai imaginei E SE: eu assistir devagar pra entender os conceitos e TALVEZ reproduzí-los.
+Foi aí que começou minha saga anotando tudo num caderninho. Em especial a parte de simulação das portas lógicas, e novamente veio um E SE, eu recriar tudo isso eletronicamente? E SE eu criar o mesmo somador utilizando componentes eletrônicos dos quais eu tenho familiariedade quase nula?">
 
-<meta property="og:url" content="http://localhost:1313/posts/entendendo-algoritmos/">
+<meta property="og:url" content="http://localhost:1313/posts/somando-bits/">
   <meta property="og:site_name" content="Samir Góes">
-  <meta property="og:title" content="Entendendo Algoritmos">
-  <meta property="og:description" content="Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.
-A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.
-Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.">
+  <meta property="og:title" content="Somando bits">
+  <meta property="og:description" content="Somando bits Link to heading Há alguns meses atrás, eu vi esse vídeo aqui:
+Assisti superficialmente de início, mas é um BAITA conteúdo. Mas ai imaginei E SE: eu assistir devagar pra entender os conceitos e TALVEZ reproduzí-los.
+Foi aí que começou minha saga anotando tudo num caderninho. Em especial a parte de simulação das portas lógicas, e novamente veio um E SE, eu recriar tudo isso eletronicamente? E SE eu criar o mesmo somador utilizando componentes eletrônicos dos quais eu tenho familiariedade quase nula?">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-01-23T19:39:44-03:00">
-    <meta property="article:modified_time" content="2024-01-23T19:39:44-03:00">
-    <meta property="article:tag" content="Algoritmos">
+    <meta property="article:published_time" content="2024-06-25T22:00:42-03:00">
+    <meta property="article:modified_time" content="2024-06-25T22:00:42-03:00">
 
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/entendendo-algoritmos/">
+<link rel="canonical" href="http://localhost:1313/posts/somando-bits/">
 
 
 <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -143,8 +142,8 @@ Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplica
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/posts/entendendo-algoritmos/">
-              Entendendo Algoritmos
+            <a class="title-link" href="http://localhost:1313/posts/somando-bits/">
+              Somando bits
             </a>
           </h1>
         </div>
@@ -152,40 +151,47 @@ Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplica
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime="2024-01-23T19:39:44-03:00">
-                January 23, 2024
+              <time datetime="2024-06-25T22:00:42-03:00">
+                June 25, 2024
               </time>
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              One-minute read
+              2-minute read
             </span>
           </div>
           
           
-          <div class="tags">
-  <i class="fa fa-tag" aria-hidden="true"></i>
-    <span class="tag">
-      <a href="/tags/algoritmos/">Algoritmos</a>
-    </span></div>
-
+          
         </div>
       </header>
 
       <div class="post-content">
         
-        <h2 id="entendendo-algoritmos">
-  Entendendo algoritmos
-  <a class="heading-link" href="#entendendo-algoritmos">
+        <h2 id="somando-bits">
+  Somando bits
+  <a class="heading-link" href="#somando-bits">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p><img src="entendendo-algoritmos.png" alt="Texto Alternativo"></p>
-<p>Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples,
-tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.</p>
-<p>A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.</p>
-<p>Nesta série de posts vamos juntos entender o livro <strong>Entendendo Algoritmos</strong> aplicando os algoritmos em diversas linguagens.</p>
+<p>Há alguns meses atrás, eu vi esse vídeo aqui:</p>
+<p><a href="https://www.youtube.com/watch?v=BbnDmeNojFA"><img src="https://img.youtube.com/vi/BbnDmeNojFA/0.jpg" alt="IMAGE ALT TEXT HERE"></a></p>
+<p>Assisti superficialmente de início, mas é um BAITA conteúdo. Mas ai imaginei E SE: eu assistir devagar pra entender os conceitos e TALVEZ reproduzí-los.</p>
+<p>Foi aí que começou minha saga anotando tudo num caderninho. Em especial a parte de simulação das portas lógicas, e novamente veio um E SE, eu recriar tudo isso eletronicamente? E SE eu criar o mesmo somador utilizando componentes eletrônicos dos quais eu tenho familiariedade <del>quase nula</del>? Pô, deve ser legal, vamo entender.</p>
+<p>Começou minha saga assistindo vídeos no youtube e revisitando textos que eu me baseei pra acender os primeiros leds no meu Arduino. Cheguei neles, <strong>transistores</strong>.
+Mas CALMA LÁ PARSERO, não adianta sair queimando componente porque não colocou resistor sem antes testar essa bagaça nas sketchs da vida.</p>
+<p>Fui eu fuçar e fazer skechts, que funcionavam as vezes. Foi lá que eu descobri que existem os CI&rsquo;s (circuitos integrados) de portas lógicas que facilitavam pra caramba.</p>
+<p>Levantei tudo que poderia precisar e graças a shopee, consegui comprar tudo por valores nem tão acessíveis e agradáveis a um mero curioso.</p>
+<p>Mas CALMA LÁ DENOVO MEUAMIGO, vamos tentar fazer tudo isso usando python, já que é uma linguagem que eu também não sou muito familiarizado.</p>
+<p><strong>Aparentemente eu gosto de arrumar problemas.</strong></p>
+<p>Foi ai que surgiu a ideia de:</p>
+<ul>
+<li>Reproduzir a parte das portas lógicas e do somador com python;</li>
+<li>FAZER TUDO ELETRÔNICO COM LEDS, TRANSISTORES, BOTÕES E MUITOS JUMPERS;</li>
+</ul>
+<p>Mas nessa primeira parte vamos focar no python, até pra entender os conceitos que serão aplicados.</p>
+<p>VEJO VOCÊS LOGO</p>
 
       </div>
 

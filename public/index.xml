@@ -2,53 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Samir Góes</title>
-    <link>https://SamirGoes.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Samir Góes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jan 2024 19:39:44 -0300</lastBuildDate><atom:link href="https://SamirGoes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 22:00:42 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Somando bits</title>
+      <link>http://localhost:1313/posts/somando-bits/</link>
+      <pubDate>Tue, 25 Jun 2024 22:00:42 -0300</pubDate>
+      <guid>http://localhost:1313/posts/somando-bits/</guid>
+      <description>Somando bits Link to heading Há alguns meses atrás, eu vi esse vídeo aqui:&#xA;Assisti superficialmente de início, mas é um BAITA conteúdo. Mas ai imaginei E SE: eu assistir devagar pra entender os conceitos e TALVEZ reproduzí-los.&#xA;Foi aí que começou minha saga anotando tudo num caderninho. Em especial a parte de simulação das portas lógicas, e novamente veio um E SE, eu recriar tudo isso eletronicamente? E SE eu criar o mesmo somador utilizando componentes eletrônicos dos quais eu tenho familiariedade quase nula?</description>
+    </item>
     <item>
       <title>Entendendo Algoritmos</title>
-      <link>https://SamirGoes.github.io/posts/entendendo-algoritmos/</link>
+      <link>http://localhost:1313/posts/entendendo-algoritmos/</link>
       <pubDate>Tue, 23 Jan 2024 19:39:44 -0300</pubDate>
-      
-      <guid>https://SamirGoes.github.io/posts/entendendo-algoritmos/</guid>
-      <description>Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.
-A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.
-Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.</description>
+      <guid>http://localhost:1313/posts/entendendo-algoritmos/</guid>
+      <description>Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.&#xA;A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.&#xA;Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.</description>
     </item>
-    
     <item>
-      <title>Skills</title>
-      <link>https://SamirGoes.github.io/skills/</link>
+      <title>Habilidades</title>
+      <link>http://localhost:1313/skills/</link>
       <pubDate>Tue, 23 Jan 2024 18:30:51 -0300</pubDate>
-      
-      <guid>https://SamirGoes.github.io/skills/</guid>
-      <description>Desenvolvedor com mais de 10 anos de experiência, já tendo atuado nos setores bancário, seguradoras, hospitalar, ecommerce, condominial e fintech.
-Habilidades Link to heading Linguagens Link to heading .Net Core ⭐ ⭐ ⭐ ⭐ ⭐ 6 + ⭐ ⭐ ⭐ ⭐ ⭐ Framework ⭐ ⭐ ⭐ ⭐ ⭐ Java
-Spring boot ⭐ Python
-Fast Api ⭐ JavaScript ⭐ ⭐ ⭐ ⭐
-Frontend Link to heading HTML ⭐ ⭐ ⭐ ⭐ jQuery ⭐ ⭐ ⭐ ⭐ Angular ⭐ Databases Link to heading Sql Server ⭐ ⭐ ⭐ ⭐</description>
+      <guid>http://localhost:1313/skills/</guid>
+      <description>Linguagens Link to heading .Net Core ⭐ ⭐ ⭐ ⭐ ⭐ 6 + ⭐ ⭐ ⭐ ⭐ ⭐ Framework ⭐ ⭐ ⭐ ⭐ ⭐ Java&#xA;Spring boot ⭐ Python&#xA;Fast Api ⭐ JavaScript ⭐ ⭐ ⭐ ⭐&#xA;Frontend Link to heading HTML ⭐ ⭐ ⭐ ⭐ jQuery ⭐ ⭐ ⭐ ⭐ Angular ⭐ Databases Link to heading Sql Server ⭐ ⭐ ⭐ ⭐&#xA;MongoDb ⭐ ⭐ ⭐ ⭐&#xA;Oracle ⭐ ⭐</description>
     </item>
-    
     <item>
       <title>Contact</title>
-      <link>https://SamirGoes.github.io/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 17 Apr 2023 13:58:05 -0300</pubDate>
-      
-      <guid>https://SamirGoes.github.io/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description> </description>
     </item>
-    
     <item>
-      <title>About</title>
-      <link>https://SamirGoes.github.io/about/</link>
+      <title>Sobre</title>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 31 Jan 2023 19:15:51 -0300</pubDate>
-      
-      <guid>https://SamirGoes.github.io/about/</guid>
-      <description>Meu nome é Samir Góes, tenho 31 anos, casado e moro em São José dos Campos em uma casa onde temos mais gatos do que pessoas. Sou formado em Sistemas de Informação com pós graduação não concluída em Desenvolvimento de Software para Web.
-Carreira Link to heading Tenho mais de 10 anos de experiência como desenvolvedor de software, dos quais já atuei nos segmentos bancário, seguros, saúde, recursos humanos, ecommerce e fintech.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Meu nome é Samir Góes, tenho 32 anos, casado e moro no Vale do Paraíba em uma casa com alguns gatos.&#xA;Colecionador de hobbies saudáveis como boxe, kickboxing e ciclismo e outros nem tanto como cerveja, café e charuto.&#xA;Sou formado em Sistemas de Informação com pós graduação não concluída em Desenvolvimento de Software para Web.&#xA;Tenho mais de 10 anos de experiência como desenvolvedor de software, dos quais já atuei nos segmentos bancário, seguros, saúde, recursos humanos, ecommerce e financeiro.</description>
     </item>
-    
   </channel>
 </rss>

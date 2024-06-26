@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Samir Góes</title>
-    <link>https://SamirGoes.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Samir Góes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jan 2024 19:39:44 -0300</lastBuildDate><atom:link href="https://SamirGoes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jan 2024 19:39:44 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>algoritmos</title>
-      <link>https://SamirGoes.github.io/tags/algoritmos/</link>
-      <pubDate>Tue, 23 Jan 2024 19:39:44 -0300</pubDate>
-      
-      <guid>https://SamirGoes.github.io/tags/algoritmos/</guid>
+      <title>Algoritmos</title>
+      <link>http://localhost:1313/tags/algoritmos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/algoritmos/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

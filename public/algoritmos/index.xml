@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algoritmos on Samir Góes</title>
-    <link>https://SamirGoes.github.io/algoritmos/</link>
+    <link>http://localhost:1313/algoritmos/</link>
     <description>Recent content in Algoritmos on Samir Góes</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://SamirGoes.github.io/algoritmos/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/algoritmos/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
