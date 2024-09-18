@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Samir Góes</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://SamirGoes.github.io/posts/</link>
     <description>Recent content in Posts on Samir Góes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Sep 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://SamirGoes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Somador completo</title>
-      <link>http://localhost:1313/posts/somador-completo/</link>
+      <link>https://SamirGoes.github.io/posts/somador-completo/</link>
       <pubDate>Wed, 18 Sep 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/posts/somador-completo/</guid>
+      <guid>https://SamirGoes.github.io/posts/somador-completo/</guid>
       <description>Tá SAMI, esse bit sobrando tava incomodando e eu não sabia onde enfiar ele.&#xA;Bom, FINALMENTE voltamos, demorei por motivos de FÉRIAS e ENROLAÇÃO. MAS VOLTEI&#xA;Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.&#xA;Antes de mais nada, vamos entender a soma dos bits:&#xA;Vamos considerar a soma de dois bits (A e B): Link to heading 0 + 0 = 0</description>
     </item>
     <item>
       <title>Meio somador</title>
-      <link>http://localhost:1313/posts/meio-somador/</link>
+      <link>https://SamirGoes.github.io/posts/meio-somador/</link>
       <pubDate>Tue, 25 Jun 2024 23:16:35 -0300</pubDate>
-      <guid>http://localhost:1313/posts/meio-somador/</guid>
+      <guid>https://SamirGoes.github.io/posts/meio-somador/</guid>
       <description>Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.&#xA;O que será necessário para entender o post?&#xA;saber somar 1 + 1 (em bits) conhecer um pouco de python tempo suficiente para perder aqui Indo direto ao ponto, vamos implementar um meio somador com python, mas ORAS, o que é um meio somador? Segundo o google chatgpt:&#xA;Um meio somador é um circuito digital que realiza a adição de dois bits, gerando uma soma e um carry (vai-um).</description>
     </item>
     <item>
       <title>Somando bits</title>
-      <link>http://localhost:1313/posts/somando-bits/</link>
+      <link>https://SamirGoes.github.io/posts/somando-bits/</link>
       <pubDate>Tue, 25 Jun 2024 22:00:42 -0300</pubDate>
-      <guid>http://localhost:1313/posts/somando-bits/</guid>
+      <guid>https://SamirGoes.github.io/posts/somando-bits/</guid>
       <description>Somando bits Link to heading Há alguns meses atrás, eu vi esse vídeo aqui:&#xA;Assisti superficialmente de início, mas é um BAITA conteúdo. Mas ai imaginei E SE: eu assistir devagar pra entender os conceitos e TALVEZ reproduzí-los.&#xA;Foi aí que começou minha saga anotando tudo num caderninho. Em especial a parte de simulação das portas lógicas, e novamente veio um E SE, eu recriar tudo isso eletronicamente? E SE eu criar o mesmo somador utilizando componentes eletrônicos dos quais eu tenho familiariedade quase nula?</description>
     </item>
     <item>
       <title>Entendendo Algoritmos</title>
-      <link>http://localhost:1313/posts/entendendo-algoritmos/</link>
+      <link>https://SamirGoes.github.io/posts/entendendo-algoritmos/</link>
       <pubDate>Tue, 23 Jan 2024 19:39:44 -0300</pubDate>
-      <guid>http://localhost:1313/posts/entendendo-algoritmos/</guid>
+      <guid>https://SamirGoes.github.io/posts/entendendo-algoritmos/</guid>
       <description>Entendendo algoritmos Link to heading Esse é um livro de escrita simples e de fácil entendimento, porém engana-se quem acha que ele trata de coisas simples, tive que revisitar meu ensino médio (ou fundamental) para lembrar o que são logaritmos e exponenciais.&#xA;A leitura pode se tornar mais densa a medida que aplicamos os algoritmos seja em python (utilizado no livro), seja na sua linguagem de prefêrencia.&#xA;Nesta série de posts vamos juntos entender o livro Entendendo Algoritmos aplicando os algoritmos em diversas linguagens.</description>
     </item>
   </channel>

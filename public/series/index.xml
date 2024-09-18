@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Samir Góes</title>
-    <link>http://localhost:1313/series/</link>
+    <link>https://SamirGoes.github.io/series/</link>
     <description>Recent content in Series on Samir Góes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Sep 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://SamirGoes.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Calculadora</title>
-      <link>http://localhost:1313/series/calculadora/</link>
+      <link>https://SamirGoes.github.io/series/calculadora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/calculadora/</guid>
+      <guid>https://SamirGoes.github.io/series/calculadora/</guid>
       <description></description>
     </item>
   </channel>

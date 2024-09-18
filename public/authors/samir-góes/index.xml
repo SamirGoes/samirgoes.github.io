@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Samir Góes</title>
-    <link>http://localhost:1313/authors/samir-g%C3%B3es/</link>
+    <link>https://SamirGoes.github.io/authors/samir-g%C3%B3es/</link>
     <description>Recent content on Samir Góes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Sep 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/samir-g%C3%B3es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://SamirGoes.github.io/authors/samir-g%C3%B3es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Somador completo</title>
-      <link>http://localhost:1313/posts/somador-completo/</link>
+      <link>https://SamirGoes.github.io/posts/somador-completo/</link>
       <pubDate>Wed, 18 Sep 2024 10:00:00 -0300</pubDate>
-      <guid>http://localhost:1313/posts/somador-completo/</guid>
+      <guid>https://SamirGoes.github.io/posts/somador-completo/</guid>
       <description>Tá SAMI, esse bit sobrando tava incomodando e eu não sabia onde enfiar ele.&#xA;Bom, FINALMENTE voltamos, demorei por motivos de FÉRIAS e ENROLAÇÃO. MAS VOLTEI&#xA;Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.&#xA;Antes de mais nada, vamos entender a soma dos bits:&#xA;Vamos considerar a soma de dois bits (A e B): Link to heading 0 + 0 = 0</description>
     </item>
     <item>
       <title>Meio somador</title>
-      <link>http://localhost:1313/posts/meio-somador/</link>
+      <link>https://SamirGoes.github.io/posts/meio-somador/</link>
       <pubDate>Tue, 25 Jun 2024 23:16:35 -0300</pubDate>
-      <guid>http://localhost:1313/posts/meio-somador/</guid>
+      <guid>https://SamirGoes.github.io/posts/meio-somador/</guid>
       <description>Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.&#xA;O que será necessário para entender o post?&#xA;saber somar 1 + 1 (em bits) conhecer um pouco de python tempo suficiente para perder aqui Indo direto ao ponto, vamos implementar um meio somador com python, mas ORAS, o que é um meio somador? Segundo o google chatgpt:&#xA;Um meio somador é um circuito digital que realiza a adição de dois bits, gerando uma soma e um carry (vai-um).</description>
     </item>
   </channel>
