@@ -12,7 +12,7 @@ draft: false
     * Framework ⭐ ⭐ ⭐ ⭐ ⭐
 
 - Java
-    * Spring boot ⭐
+    - Spring boot ⭐
 
 - Python
     * Fast Api ⭐
@@ -25,12 +25,22 @@ draft: false
 - Angular ⭐
 
 ### Databases
-+ Sql Server ⭐ ⭐ ⭐ ⭐ 
-+ MongoDb ⭐ ⭐ ⭐ ⭐
-+ Oracle ⭐ ⭐
-
-+ Docker ⭐ ⭐ ⭐ 
+- Sql Server ⭐ ⭐ ⭐ ⭐
+- MongoDb ⭐ ⭐ ⭐ ⭐
+- Oracle ⭐ ⭐
 
 ### Mensageria
 + RabbitMQ ⭐ ⭐ ⭐ ⭐ 
 + Kafka ⭐ ⭐ 
++ SQS e SNS ⭐ ⭐ 
+
+### Outras habilidadres
++ Docker ⭐ ⭐ ⭐ 
++ Kubernetes ⭐ ⭐
++ Git ⭐ ⭐ ⭐ ⭐
++ AWS ⭐ ⭐
++ Metodologias ágeis ⭐ ⭐ ⭐ ⭐
++ Eletrônica ⭐
++ Boxe ⭐ ⭐ 
++ Kickboxing ⭐ 
++ MMA 🥲

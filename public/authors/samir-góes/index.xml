@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Calculadora on Samir Góes</title>
-    <link>http://localhost:1313/tags/calculadora/</link>
-    <description>Recent content in Calculadora on Samir Góes</description>
+    <title>Samir Góes</title>
+    <link>http://localhost:1313/authors/samir-g%C3%B3es/</link>
+    <description>Recent content on Samir Góes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Sep 2024 10:00:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/calculadora/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/samir-g%C3%B3es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Somador completo</title>
       <link>http://localhost:1313/posts/somador-completo/</link>
@@ -21,13 +21,6 @@
       <pubDate>Tue, 25 Jun 2024 23:16:35 -0300</pubDate>
       <guid>http://localhost:1313/posts/meio-somador/</guid>
       <description>Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.&#xA;O que será necessário para entender o post?&#xA;saber somar 1 + 1 (em bits) conhecer um pouco de python tempo suficiente para perder aqui Indo direto ao ponto, vamos implementar um meio somador com python, mas ORAS, o que é um meio somador? Segundo o google chatgpt:&#xA;Um meio somador é um circuito digital que realiza a adição de dois bits, gerando uma soma e um carry (vai-um).</description>
-    </item>
-    <item>
-      <title>Somando bits</title>
-      <link>http://localhost:1313/posts/somando-bits/</link>
-      <pubDate>Tue, 25 Jun 2024 22:00:42 -0300</pubDate>
-      <guid>http://localhost:1313/posts/somando-bits/</guid>
-      <description>Somando bits Link to heading Há alguns meses atrás, eu vi esse vídeo aqui:&#xA;Assisti superficialmente de início, mas é um BAITA conteúdo. Mas ai imaginei E SE: eu assistir devagar pra entender os conceitos e TALVEZ reproduzí-los.&#xA;Foi aí que começou minha saga anotando tudo num caderninho. Em especial a parte de simulação das portas lógicas, e novamente veio um E SE, eu recriar tudo isso eletronicamente? E SE eu criar o mesmo somador utilizando componentes eletrônicos dos quais eu tenho familiariedade quase nula?</description>
     </item>
   </channel>
 </rss>

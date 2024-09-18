@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+  Somador completo · Samir Góes
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Samir Góes">
+<meta name="description" content="Tá SAMI, esse bit sobrando tava incomodando e eu não sabia onde enfiar ele.
+Bom, FINALMENTE voltamos, demorei por motivos de FÉRIAS e ENROLAÇÃO. MAS VOLTEI
+Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.
+Antes de mais nada, vamos entender a soma dos bits:
+Vamos considerar a soma de dois bits (A e B): Link to heading 0 &#43; 0 = 0">
+<meta name="keywords" content="blog,developer,personal">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Somador completo">
+  <meta name="twitter:description" content="Tá SAMI, esse bit sobrando tava incomodando e eu não sabia onde enfiar ele.
+Bom, FINALMENTE voltamos, demorei por motivos de FÉRIAS e ENROLAÇÃO. MAS VOLTEI
+Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.
+Antes de mais nada, vamos entender a soma dos bits:
+Vamos considerar a soma de dois bits (A e B): Link to heading 0 &#43; 0 = 0">
+
+<meta property="og:url" content="http://localhost:1313/posts/somador-completo/">
+  <meta property="og:site_name" content="Samir Góes">
+  <meta property="og:title" content="Somador completo">
+  <meta property="og:description" content="Tá SAMI, esse bit sobrando tava incomodando e eu não sabia onde enfiar ele.
+Bom, FINALMENTE voltamos, demorei por motivos de FÉRIAS e ENROLAÇÃO. MAS VOLTEI
+Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.
+Antes de mais nada, vamos entender a soma dos bits:
+Vamos considerar a soma de dois bits (A e B): Link to heading 0 &#43; 0 = 0">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-18T10:00:00-03:00">
+    <meta property="article:modified_time" content="2024-09-18T10:00:00-03:00">
+    <meta property="article:tag" content="Calculadora">
+    <meta property="article:tag" content="Somador Completo">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/somador-completo/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.127.0">
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Samir Góes
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/skills/">Habilidades</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">Sobre</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/somador-completo/">
+              Somador completo
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-09-18T10:00:00-03:00">
+                September 18, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/samir-g%C3%B3es/">Samir Góes</a></div>
+
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/calculadora/">Calculadora</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/somador-completo/">Somador Completo</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Tá SAMI, esse bit sobrando tava incomodando e eu não sabia onde enfiar ele.</p>
+<p>Bom, FINALMENTE voltamos, demorei por motivos de FÉRIAS e ENROLAÇÃO. MAS VOLTEI</p>
+<p>Esse post faz parte da série <strong>Implementando uma calculadora binária</strong> ou um título mais apropriado no futuro.</p>
+<p>Antes de mais nada, vamos entender a soma dos bits:</p>
+<h3 id="vamos-considerar-a-soma-de-dois-bits-a-e-b">
+  Vamos considerar a soma de dois bits (A e B):
+  <a class="heading-link" href="#vamos-considerar-a-soma-de-dois-bits-a-e-b">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>0 + 0 = 0<br>
+0 + 1 = 1<br>
+1 + 0 = 1<br>
+1 + 1 = 10 (que é equivalente a 2 em decimal)</p>
+<p>Quando somamos dois bits e o resultado é &ldquo;10&rdquo; (em binário), temos:</p>
+<p>O bit da direita (0) é a soma.
+O bit da esquerda (1) é o carry-out (ou vai-um), que é transportado para a próxima posição de bits.</p>
+<blockquote>
+<p><strong>A adição de números maiores que um bit envolve o uso do carry-out gerado na soma anterior.</strong></p>
+</blockquote>
+<p>No post anterior realizamos uma soma de bits simples calculando 9 + 3, e tivemos dois valores um da <strong>soma</strong> e um <strong>carry</strong>.  Mas, logo no segundo bit a ser somado carregamos ainda um carry na soma, o que fazer agora se um meio somador só consegue lidar com dois bits de entrada?</p>
+<p>Simples! Precisamos de um <strong>somador completo.</strong></p>
+<h2 id="somador-completo">
+  Somador completo
+  <a class="heading-link" href="#somador-completo">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Um somador completo é basicamente a utilização de dois meio somadores e uma operação OR para o carry-out de cada operação.</p>
+<ul>
+<li>Meio somador 1: Calcula a soma parcial de A e B, e gera um carry-out parcial.</li>
+<li>Meio somador 2: Calcula a soma final com o valor da soma da primeira operação e do bit de carry-in e também gera um carry-out adicional.</li>
+<li>Finalmente, o carry-out total é a combinação dos dois carry-out&rsquo;s (parcial e adicional).</li>
+</ul>
+<p>Se pegarmos agora o segundo bit de 9 (0) e de 3 (1) e aplicarmos o carry-out da soma anterior (1), conseguimos executar a soma:</p>
+<p><img src="soma9e3.png" alt="soma de nove com três"></p>
+<p><img src="full_adder.png" alt="Soma da segunda casa com o carry"></p>
+<p>Logo, poderemos então realizar essa operação para todos os bits da cadeia, ficando assim (o carry fica em cima):</p>
+<p><img src="soma.png" alt="Resultado da soma"></p>
+<blockquote>
+<p>1100 = 12 decimal</p>
+</blockquote>
+<ul>
+<li>A primeira soma recebe um zero no carry por não ter ocorrido nenhuma soma anterior</li>
+</ul>
+<p>Código completo em python:</p>
+<p><img src="codigo_python.png" alt="Código em python"></p>
+<h3 id="e-aquele-carry-zero-lá-em-cima-do-número-nove">
+  E aquele carry zero lá em cima do número nove?
+  <a class="heading-link" href="#e-aquele-carry-zero-l%c3%a1-em-cima-do-n%c3%bamero-nove">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>SPOILER: É a representação das limitações físicas de hoje!<br>
+SPOLIER 2: Vamos fazer isso de forma eletrônica usando <strong>transistores</strong></p>
+<p>AGUARDEM!!!</p>
+<p>O código está disponível também no meu Github: <a href="https://github.com/SamirGoes/binary-adder">https://github.com/SamirGoes/binary-adder</a></p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+</section>
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Samir Góes 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

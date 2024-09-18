@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/calculadora/</loc>
-    <lastmod>2024-06-25T23:16:35-03:00</lastmod>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/meio-somador/</loc>
-    <lastmod>2024-06-25T23:16:35-03:00</lastmod>
+    <loc>http://localhost:1313/tags/calculadora/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/calculadora/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-25T23:16:35-03:00</lastmod>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-25T23:16:35-03:00</lastmod>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/samir-g%C3%B3es/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/somador-completo/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/somador-completo/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-09-18T10:00:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/meio-somador/</loc>
     <lastmod>2024-06-25T23:16:35-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/somando-bits/</loc>
@@ -37,10 +55,6 @@
   </url><url>
     <loc>http://localhost:1313/algoritmos/</loc>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

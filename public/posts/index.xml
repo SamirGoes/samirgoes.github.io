@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Samir Góes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Jun 2024 23:16:35 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2024 10:00:00 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Somador completo</title>
+      <link>http://localhost:1313/posts/somador-completo/</link>
+      <pubDate>Wed, 18 Sep 2024 10:00:00 -0300</pubDate>
+      <guid>http://localhost:1313/posts/somador-completo/</guid>
+      <description>Tá SAMI, esse bit sobrando tava incomodando e eu não sabia onde enfiar ele.&#xA;Bom, FINALMENTE voltamos, demorei por motivos de FÉRIAS e ENROLAÇÃO. MAS VOLTEI&#xA;Esse post faz parte da série Implementando uma calculadora binária ou um título mais apropriado no futuro.&#xA;Antes de mais nada, vamos entender a soma dos bits:&#xA;Vamos considerar a soma de dois bits (A e B): Link to heading 0 + 0 = 0</description>
+    </item>
     <item>
       <title>Meio somador</title>
       <link>http://localhost:1313/posts/meio-somador/</link>
